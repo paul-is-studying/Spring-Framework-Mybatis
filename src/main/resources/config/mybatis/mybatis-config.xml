@@ -11,8 +11,9 @@
 	<typeAliases>
 		<!-- <typeAlias type="vo.BoardVo" alias="board"/> -->
 	</typeAliases>
-	
+	<!-- mapper파일 등록 -->
 	<mappers>
+		<mapper resource="config/mybatis/mapper/dept.xml" />
 		<!-- <mapper resource="config/mybatis/mapper/board_select.xml" />
 		<mapper resource="config/mybatis/mapper/board_insert.xml" />
 		<mapper resource="config/mybatis/mapper/board_update.xml" />

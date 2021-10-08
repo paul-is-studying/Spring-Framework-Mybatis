@@ -19,7 +19,7 @@ public class DeptService {
 	
 	public boolean insert(DeptVO vo) {
 		
-		vo.setDeptno(deptDao.maxNo());
+		vo.setDeptno(deptDao.maxNo() + 1);
 		
 		boolean check = false;
 		
